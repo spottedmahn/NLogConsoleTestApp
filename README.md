@@ -2,7 +2,7 @@
 
 ## Setup DI
 ```c#
-//https://andrewlock.net/using-dependency-injection-in-a-net-core-console-application/
+//[AndrewLock.Net](https://andrewlock.net/using-dependency-injection-in-a-net-core-console-application/)
 var services = new ServiceCollection();
 
 //add logging
