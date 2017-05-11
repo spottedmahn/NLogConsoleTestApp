@@ -20,7 +20,7 @@ loggerFactory.AddNLog();
 loggerFactory.ConfigureNLog("nlog.config");
 ```
 
-## Create a Logger adn Log Something
+## Create a Logger and Log Something
 ```c#
 logger = serviceProvider.GetService<ILoggerFactory>()
     .CreateLogger<Program>();
