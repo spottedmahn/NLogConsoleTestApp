@@ -2,7 +2,6 @@
 
 ## Setup DI
 ```c#
-//[AndrewLock.Net](https://andrewlock.net/using-dependency-injection-in-a-net-core-console-application/)
 var services = new ServiceCollection();
 
 //add logging
@@ -12,6 +11,7 @@ services.AddLogging();
 var serviceProvider = services.BuildServiceProvider();
 
 ```
+Source: [AndrewLock.Net](https://andrewlock.net/using-dependency-injection-in-a-net-core-console-application/)
 
 ## Configure NLog
 ```c#
